@@ -55,6 +55,7 @@ img {
 @media screen and (min-width: 480px) {
   .conteiner {
     width: 480px;
+    margin: 0 auto;
   }
 }
 
@@ -368,7 +369,6 @@ img {
 /* Секции */
 /* Преимущества */
 .advantages-icon__item {
-  margin-top: -30px;
   flex-basis: calc((100% - 120px) / 4);
   border: 1px solid transparent;
   width: 100%;
@@ -383,6 +383,7 @@ img {
 .advantages__list {
   flex-wrap: wrap;
   margin-top: 30px;
+  margin-bottom: 30px;
   justify-content: center;
   align-items: center;
 }
@@ -444,6 +445,7 @@ img {
 .adventages__description {
   font-size: 14px;
   line-height: 1.7;
+  margin-bottom: 30px;
 }
 
 /* Чем занимаемся */
@@ -1192,7 +1194,7 @@ img {
 
 .porfolio-product {
   border: 1px solid #eeeeee;
-  max-height: 146px;
+  width: 100%;
   padding: 20px 24px;
 }
 
@@ -1277,7 +1279,7 @@ img {
   top: 0;
   left: 50%;
   width: 100vw;
-  max-width: 480px;
+  width: 100vw;
   height: 100vh;
   padding: 48px 40px;
   transform: translateX(-50%);
