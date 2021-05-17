@@ -1,0 +1,27 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 528px;
+  max-height: 580px;
+  background-color: #ffffff;
+  padding: 40px;
+}
+.button-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.button-close__icon:hover,
+.button-close__icon:focus {
+  fill: var(--accent-color);
+}

@@ -1,0 +1,103 @@
+/* Герой */
+
+.hero-section {
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background: #2f303a;
+  text-align: center;
+  max-width: 1600px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../image/hero-theme/hero-mobile.jpg");
+  @media (min-device-pixel-ratio: 2) and (min-width: 480px),
+    (min-resolution: 192dpi) and (min-width: 480px),
+    (min-resolution: 2dppx) and (min-width: 480px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../image/hero-theme/hero-mobile@2x.jpg");
+  }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media screen and(min-width:768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../image/hero-theme/hero-tablet.jpg");
+    @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+      (min-resolution: 192dpi) and (min-width: 768px),
+      (min-resolution: 2dppx) and (min-width: 768px) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../image/hero-theme/hero-tablet@2x.jpg");
+    }
+  }
+
+  @media screen and(min-width:1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../image/hero-theme/herotheme.jpg");
+    @media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+      (min-resolution: 192dpi) and (min-width: 1200px),
+      (min-resolution: 2dppx) and (min-width: 1200px) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../image/hero-theme/herotheme@2x.jpg");
+    }
+  }
+}
+
+.hero-section__title {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--primery-white-color);
+  font-weight: 900;
+
+  font-size: 26px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  @media screen and(min-width:480px) {
+    width: 360px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.4;
+  }
+}
+.button__primary {
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 10px 32px;
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: block;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
