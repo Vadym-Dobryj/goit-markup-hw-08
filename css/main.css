@@ -35,6 +35,12 @@ body {
   font-size: 14px;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .conteiner {
   width: 100%;
   padding-left: 15px;
@@ -497,7 +503,7 @@ body {
 }
 
 .fhoto-player {
-  max-width: 450px;
+  min-width: 450px;
 }
 
 .team__list {
@@ -914,11 +920,20 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
-  max-width: 528px;
-  max-height: 580px;
+  width: 95vw;
+  max-width: 450px;
+  height: 95vh;
+  max-height: 609px;
+  overflow-y: scroll;
   background-color: #ffffff;
   padding: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .button-close {
@@ -1175,7 +1190,7 @@ body {
 
 .porfolio-product {
   border: 1px solid #eeeeee;
-  height: 108px;
+  max-height: 146px;
   padding: 20px 24px;
 }
 
