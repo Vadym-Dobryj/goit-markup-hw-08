@@ -43,5 +43,5 @@ GoIT Markup Homework 08 – Адаптивний вебсайт студії
 
 Посилання на проєкт:
 	•	[Vadym-Dobryj](https://github.com/Vadym-Dobryj/web-basics-pro)
-	•	[Жива версія](https://vadym-dobryj.github.io/web-basics-pro/
+	•	 https://vadym-dobryj.github.io/web-basics-project/
 )
