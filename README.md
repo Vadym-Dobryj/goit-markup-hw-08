@@ -18,8 +18,8 @@ What I did in this project:
 	•	Deployed the website using GitHub Pages.
 
 Project links:
-	•	Vadym-Dobryj/goit-markup-hw-08
-	•	[Live demo](https://vadym-dobryj.github.io/goit-markup-hw-08/)
+	•	[Vadym-Dobryj](https://github.com/Vadym-Dobryj/web-basics-pro)
+	•	[Live demo](https://vadym-dobryj.github.io/web-basics-pro/)
 
 
 Назва проєкту:
@@ -42,5 +42,6 @@ GoIT Markup Homework 08 – Адаптивний вебсайт студії
 	•	Розмістив сайт на GitHub Pages.
 
 Посилання на проєкт:
-	•	Vadym-Dobryj/goit-markup-hw-08/
-	•	[Жива версія](https://vadym-dobryj.github.io/goit-markup-hw-08/)
+	•	[Vadym-Dobryj](https://github.com/Vadym-Dobryj/web-basics-pro)
+	•	[Жива версія](https://vadym-dobryj.github.io/web-basics-pro/
+)
