@@ -19,7 +19,7 @@ What I did in this project:
 
 Project links:
 	•	[Vadym-Dobryj](https://github.com/Vadym-Dobryj/web-basics-pro)
-	•	[Live demo](https://vadym-dobryj.github.io/web-basics-pro/)
+	•	 https://vadym-dobryj.github.io/web-basics-project/
 
 
 Назва проєкту:
